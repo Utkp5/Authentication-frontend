@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Login.css";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -64,10 +65,10 @@ const Handlesubmit = async () => {
           </div>
           <div className="hr"></div>
 		  <div className="foot-lnk foot_lnk1">
-		    <a href="/Signup">Sign Up</a>
+		    <NavLink to="/Signup">Sign Up</NavLink>
 		  </div>
           <div className="foot-lnk">
-            <a href="/Frgtpassword">Forgot Password?</a>
+            <NavLink to="/Frgtpassword">Forgot Password?</NavLink>
           </div>
         </div>
     </div>

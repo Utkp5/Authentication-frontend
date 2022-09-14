@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Signup.css";
 import axios from "axios";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { NavLink } from "react-router-dom";
 
 function Signup() {
 
@@ -68,12 +69,12 @@ const Handlesubmit = async () => {
           </div>
           <div className="hr"></div>
           <div className="foot-lnk">
-            <a href="/Login">Already Member? Login</a>
+            <NavLink to="/Login">Already Member? Login</NavLink>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default Signup;

@@ -1,13 +1,14 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function HomePage() {
   return (
     <div>
       <div>
-      <a href="/Signup">Go to Sign up page</a>
+      <NavLink to="/Signup">Go to Sign up page</NavLink>
       <br />
       <br />
-      <a href="/Login">Go to Login page</a>
+      <NavLink to="/Login">Go to Login page</NavLink>
       </div>
     </div>
   )
