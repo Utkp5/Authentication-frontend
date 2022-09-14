@@ -11,6 +11,9 @@ function Frgtpassword() {
 			<p><label for="username">Email</label></p>
 			<button onclick="showSpinner()">Reset Password</button>
 		</div>
+		<div>
+		  <a href="/Login">Login page</a>
+		</div>
 	</div>
   )
 }
