@@ -41,7 +41,6 @@ a{color:inherit;text-decoration:none}
 }
 .container
 {
-    border: 2px solid red;
     display: flex;
     height: 100vh;
     /* width: 100vw; */

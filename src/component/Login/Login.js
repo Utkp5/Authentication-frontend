@@ -28,7 +28,7 @@ function Login() {
           </div>
           <div className="hr"></div>
 		  <div className="foot-lnk foot_lnk1">
-		    <a href="/">Sign Up</a>
+		    <a href="/Signup">Sign Up</a>
 		  </div>
           <div className="foot-lnk">
             <a href="/Frgtpassword">Forgot Password?</a>
