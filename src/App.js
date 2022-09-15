@@ -5,6 +5,7 @@ import Signup from './component/Register/Signup';
 import Frgtpassword from './component/forgotPassword/frgtPassword';
 import Login from './component/Login/Login';
 import Surprisepage from './component/Surprisepage';
+import Resetpassword from './component/Resetpassword';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/Signup' element={<Signup />} />
           <Route exact path='/Login' element={<Login />} />
           <Route exact path='/Frgtpassword' element={<Frgtpassword />} />
+          <Route exact path='/Resetpassword' element={<Resetpassword />} />
           <Route exact path='/Surprisepage' element={<Surprisepage />} />
         </Routes>
     </Router>
