@@ -19,7 +19,7 @@ function Frgtpassword() {
     
     if (response.data) {
       Notify.success('Reset password email has been sent Successfully!')
-      window.location.href = "/Resetpassword";
+    //   window.location.href = "/resetpassword";
     }
     }).catch(function (error) {
         Notify.failure('Something went Wrong!')
