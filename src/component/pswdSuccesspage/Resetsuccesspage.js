@@ -8,7 +8,7 @@ export default function Resetsuccesspage() {
           <i className="checkmark">✓</i>
         </div>
         <h1>Success</h1><br/><br/>
-        <p>Password Reset Successfully</p><p>Close This Window To Enjoy Our Website</p>
+        <p>Password Reset Successfully</p><p className="p1">Close This Window To Enjoy Our Website</p>
     </div>
   );
 }
